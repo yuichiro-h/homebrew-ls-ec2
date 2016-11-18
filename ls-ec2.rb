@@ -5,9 +5,9 @@
 class LsEc2 < Formula
   desc ""
   homepage ""
-  url "https://github.com/yuichiro-h/ls-ec2/archive/v0.2.1.tar.gz"
-  version "0.2.1"
-  sha256 "4449c27948a8a5974e255635e70a0599ae4100dbeffb594f75c5a1959775e713"
+  url "https://github.com/yuichiro-h/ls-ec2/releases/download/v0.2.0/ls-ec2_0.2.0_darwin_amd64.zip"
+  version "0.2.0"
+  sha256 "6a7372630a2a1be0abda622ae0de9b3f34d402bdd9558033e5cc115a556c8acd"
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
@@ -21,7 +21,7 @@ class LsEc2 < Formula
     #
     # This test will fail and we won't accept that! It's enough to just replace
     # "false" with the main program this formula installs, but it'd be nice if you
-    # were more thorough. Run the test with `brew test ls-ec2`. Options passed
+    # were more thorough. Run the test with `brew test ls-ec2_0.2.0_darwin_amd`. Options passed
     # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
     #
     # The installed folder is not in the path, so use the entire path to any
