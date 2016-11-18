@@ -13,7 +13,7 @@ class LsEc2 < Formula
   depends_on :x11 # if your formula requires any X11/XQuartz components
 
   def install
-    bin.install
+    bin.install Dir['ls-ec2']
   end
 
   test do
